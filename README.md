@@ -13,6 +13,8 @@ Fivem AntiCheat %99.9 Protection
 
 ![unknown](https://github.com/raiderss/FYAC/assets/53000629/06b6f0e3-89a1-4ffc-8812-f6e8d2b4e14f)
 
+![unknown](https://github.com/raiderss/FYAC/assets/53000629/28121481-d5e8-4bd3-af7a-0206875b62ce)
+
 Our Client Side Features/Protections:
 
 With 0.03MS encryption, 0.06 will be further optimized.
