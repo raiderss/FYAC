@@ -1,0 +1,33 @@
+TR/
+
+Kurulum Bilgileri:
+
+-- Komut dosyasý baþlatma örneði
+../resources/[GUARD]
+
+server.cfg baþlangýç örneði:
+
+ensure [GUARD] 
+
+Önemli bilgiler:
+- [GUARD] start en sona verilecektir. (ensure veya start)
+- [GUARD]'da FYAC dýþýnda baþka bir dosya olmamalý.
+- Aksi halde gereksiz ban atmaya baþlar.
+
+
+
+EN/
+
+Installation Information:
+
+-- Script initialization example
+../resources/[GUARD]
+
+server.cfg start example:
+
+ensure [GUARD]
+
+Important informations:
+- [GUARD] will be given from start to end.
+- No other file can be found in [GUARD] except FYAC.
+- - Otherwise, it starts throwing unnecessary bans.
