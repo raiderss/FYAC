@@ -60,9 +60,6 @@ Citizen.CreateThread(function()
             return
         end
 
-        Citizen.CreateThread(function()
-            SetConvarServerInfo("Anticheat", "https://fivemac.com/")
-        end)
 
         Citizen.CreateThread(function()
             while true do

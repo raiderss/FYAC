@@ -331,10 +331,6 @@ end)
         if DoesEntityExist(object) then ESX.Game.DeleteObject(object) end
     end)
 
-    local playerPed = PlayerPedId()
-    if IsPedSittingInAnyVehicle(playerPed) and IsVehicleVisible(GetVehiclePedIsIn(playerPed, false)) then
-        FYAC('FYAC:raiderwillfuckyourmom',_source,"Car visible")
-    end
 
     RegisterNetEvent(GetCurrentResourceName())
     AddEventHandler(GetCurrentResourceName(), function()
