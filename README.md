@@ -1,6 +1,8 @@
 # FYAC
 Fivem AntiCheat %99.9 Protection
 
+75% of the language files are linked, but I couldn't link some parts because I didn't have time, sorry.
+
 - **_! Raider#0101_**
 - [**Discord**](https://discord.gg/EkwWvFS)
 - [**Tebex**](https://eyestore.tebex.io/)
