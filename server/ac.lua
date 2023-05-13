@@ -1216,21 +1216,21 @@ end
     end
 end)
 
-RegisterServerEvent(GetCurrentResourceName())
-AddEventHandler(GetCurrentResourceName(), function(src)
-    local identifierDb
-    local src = source
-    local xPlayer = ESX.GetPlayerFromId(source)
-    local identifier = getidentifiers(source)
+--RegisterServerEvent(GetCurrentResourceName())
+--AddEventHandler(GetCurrentResourceName(), function(src)
+    --local identifierDb
+    --local src = source
+    --local xPlayer = ESX.GetPlayerFromId(source)
+    --local identifier = getidentifiers(source)
 
-    if xPlayer.getGroup() == "admin" or xPlayer.getGroup() == "superadmin" then 
-    return 
-    end
+    --if xPlayer.getGroup() == "admin" or xPlayer.getGroup() == "superadmin" then 
+    --return 
+    --end
 
-    sendToDiscord(FYAC_S.Log["Executor Detection"],source,"[NUI Blocker]","**Informations:**\n\n"..getPlayerInfo(source).."\n\n**Player R�tbesi:** "..xPlayer.getGroup().."\n\n**Info:**NUI Devtools",15158332)
-    Citizen.Wait(tonumber(3000))
-    TriggerEvent('FYAC:Ban1FuckinCheater', src,"NUI Devtools") 
-end)
+    --sendToDiscord(FYAC_S.Log["Executor Detection"],source,"[NUI Blocker]","**Informations:**\n\n"..getPlayerInfo(source).."\n\n**Player R�tbesi:** "..xPlayer.getGroup().."\n\n**Info:**NUI Devtools",15158332)
+    --Citizen.Wait(tonumber(3000))
+    --TriggerEvent('FYAC:Ban1FuckinCheater', src,"NUI Devtools") 
+--end)
 
 
 RegisterCommand(FYAC_C.Commands["/fyacdeletepublic"], function(source)
