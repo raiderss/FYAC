@@ -185,6 +185,9 @@ AddEventHandler("entityCreating", function(id)
 	    if FYAC_S.Uninterrupted["Inventory Type"] == 'esxtype-inventory' then 
 	    return xPlayer.getInventoryItem(weapon).count
 	    end
+	    if FYAC_S.Uninterrupted["Inventory Type"] == 'ox_inventory' then  --- NEW | OPTION FOR OX INVENTORY ADDED
+	    return exports.ox_inventory:GetItemCount(weapon:lower())
+	    end
 	end
 
 	for i = 0, GetNumResources()-1, 1 do
