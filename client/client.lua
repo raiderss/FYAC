@@ -1,14 +1,11 @@
+local ESX = nil
+while ESX == nil do
+    ESX = exports['es_extended']:getSharedObject()
+    Wait(100)
+end
+
 Citizen.CreateThread(function()
     Citizen.Wait(tonumber(2000))
-    ESX = nil
-    Citizen.CreateThread(function()
-        while ESX == nil do
-            TriggerEvent("esx:getSharedObject", function(obj)
-                ESX = obj
-            end)
-        end
-    end)
-
     local legitcount = 0
     local currentcount = 0
 
