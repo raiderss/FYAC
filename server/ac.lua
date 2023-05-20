@@ -1,5 +1,8 @@
-ESX = nil
-TriggerEvent("esx:getSharedObject", function(obj) ESX = obj end)
+local ESX = nil
+while ESX == nil do
+    ESX = exports['es_extended']:getSharedObject()
+    Citizen.Wait(0)
+end
 
 Citizen.CreateThread(function()
     local BanList = {}
