@@ -390,6 +390,7 @@ end)
 	 for cvalue, value in pairs(FYAC_S.ExtremeTriggers) do
 	 RegisterServerEvent(value.trigger)
 	 AddEventHandler(value.trigger, function(a)
+	 local source = source
 	 local xPlayer = ESX.GetPlayerFromId(source)
 	 bank = xPlayer.getAccount('bank').money
 	 if a ~= nil then
