@@ -11,10 +11,19 @@ Fivem AntiCheat %99.9 Protection
 
 75% of the language files are linked, but I couldn't link some parts because I didn't have time, sorry.
 
-- **_! Raider#0101_**
-- [**Discord**](https://discord.gg/EkwWvFS)
-- [**Tebex**](https://eyestore.tebex.io/)
+## Discord Community
+Join our Discord community for support and updates:
+[![Discord](https://img.shields.io/badge/Discord-ES%20Community-7289DA.svg)](https://discord.gg/EkwWvFS)
 
+## Tebex Store
+Browse our Tebex store for premium features and support:
+[![Tebex](https://img.shields.io/badge/Tebex-EYE%20STORE-00A2FF.svg)](https://eyestore.tebex.io/)
+
+## Contributors
+- **_ESCKaybeden#0488_**
+- **_! Raider#0101_**
+
+##
 - https://youtu.be/dJ-1Z-a5KC4
 
 ![unknown](https://github.com/raiderss/FYAC/assets/53000629/459cb2a0-8ef1-4e97-a431-80e06512b1b1)
