@@ -1,6 +1,2 @@
 {
-  "dependencies": {
-    "fs": "^0.0.1-security",
-    "ip": "^1.1.5"
-  }
 }
